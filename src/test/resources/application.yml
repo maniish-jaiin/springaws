@@ -1,0 +1,9 @@
+cloud:
+  aws:
+    region:
+      static: eu-central-1
+    stack:
+      auto: false
+
+sqs:
+  orderEventQueue: order-event-test-queue
